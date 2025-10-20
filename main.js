@@ -7,7 +7,7 @@ onload = () => {
   }, 1000);
 
   // redirect after 5 seconds (configurable via <body data-redirect="https://...">)
-  const redirectAfter = 8000; // ms
+  const redirectAfter = 10000; // ms
   const target = document.body.dataset.redirect || "https://minhnghia-dev.github.io/happy-20-10/test";
 
   const r = setTimeout(() => {
